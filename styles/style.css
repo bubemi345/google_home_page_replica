@@ -1,0 +1,174 @@
+body {
+    overflow: auto;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+ button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 7px 8px;
+}
+
+div.header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 22px;
+    margin-top: 12px;
+    margin-right: 17px;
+}
+
+div.header a {
+    /* font-size: 14px; */
+    color: #000000;
+    text-decoration: none;
+}
+
+div.header a:hover {
+    text-decoration: underline;
+}
+
+.menu {
+    width: 23px;
+    fill: rgb(108, 107, 107);
+    /* transform: scale(1); */
+}
+
+.header button:hover {
+    border-radius: 25px;
+    background-color: #eeeaea;
+    /* transform: scale(1.1); */
+    /* padding: 3px 3px; */
+}
+.email {
+    border-radius: 25px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 18%;
+}
+
+/* form input {
+    display: block;
+    margin: auto;
+    margin-top: 20px; 
+    width: 60%;
+    padding: 15px;
+    border-radius: 50px;
+    border: 1px solid #CCC;
+    outline: none;   
+} */
+
+form button {
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    border-radius: 5px;
+    /* border: none; */
+    /* outline: none; */
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+form button:hover {
+    outline:0.50px solid #CCC;
+}
+
+.main-content form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 5px;
+}
+
+form .button {
+    display: flex;
+    gap: 15px;
+    outline: none;
+}
+
+.hint {
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+footer .information {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 35px;
+}
+
+footer .information a {
+    font-size: 14px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 25px;
+}
+footer .information a:hover {
+    text-decoration: underline;
+}
+
+footer .footer-title {
+    padding: 15px 30px;
+    border-bottom: 1px solid #CCC;
+    margin: 0;
+}
+
+#input_container {
+    display: flex;
+    margin: auto;
+    margin-top: 20px; 
+    width: 37%;
+    padding: 12px;
+    border-radius: 50px;
+    border: 1px solid #CCC;
+    gap: 20px;
+}
+#input { 
+    height:20px;
+    margin:0;
+    width: 100%;
+    border: 0;
+    outline: none;
+}
+#input_img {
+    width:25px;
+    fill: rgb(156, 155, 155);
+}
+
+#input_audio {
+    width:30px;
+}
+
+#input_camera {
+    width:30px;
+}
+
+#input_container:hover {
+    box-shadow: 2px 2px 5px #CCC;
+}
+
+.information img {
+    width: 12px;
+}
